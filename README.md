@@ -44,7 +44,12 @@ The following table maps package releases to their minimum required Swift toolch
 | swift-subprocess 0.2.x | >= Swift 6.1  | >= Xcode 16.3 |
 | swift-subprocess 0.3.x | >= Swift 6.1  | >= Xcode 16.3 |
 | swift-subprocess 0.4.x | >= Swift 6.1  | >= Xcode 16.3 |
+| swift-subprocess 0.5.x | >= Swift 6.2  | >= Xcode 26   |
+| swift-subprocess 1.0.x | >= Swift 6.2  | >= Xcode 26   |
 | main                   | >= Swift 6.2  | >= Xcode 26   |
+
+> [!NOTE]
+> On Darwin, the Xcode column states an SDK requirement as well as a toolchain requirement. Foundation and the other SDK modules come from the active Xcode, so a toolchain installed from swift.org still needs the listed Xcode selected through `xcode-select` or `DEVELOPER_DIR`.
 
 
 ## Feature Overview
